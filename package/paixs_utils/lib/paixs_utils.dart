@@ -1,0 +1,32 @@
+// library paixs_utils;
+
+// export 'config/resource_mananger.dart';
+// export 'config/net/Config.dart';
+// export 'config/net/api.dart';
+// export 'config/net/pgyer_api.dart';
+// export 'model/data_model.dart';
+// export 'util/interface.dart';
+// export 'util/textedit_util.dart';
+// export 'util/utils.dart';
+// export 'widget/anima_switch_widget.dart';
+// export 'widget/animated_switcher_widget.dart';
+// export 'widget/btmbtn_widget.dart';
+// export 'widget/button.dart';
+// export 'widget/custom_route.dart';
+// export 'widget/custom_scroll_physics.dart';
+// export 'widget/image.dart';
+// export 'widget/inkbtn_widget.dart';
+// export 'widget/item_tap_widget.dart';
+// export 'widget/mylistview.dart';
+// export 'widget/mytext.dart';
+// export 'widget/photo_widget.dart';
+// export 'widget/pop_widget.dart';
+// export 'widget/rating_bar.dart';
+// export 'widget/refresher_widget.dart';
+// export 'widget/scaffold_widget.dart';
+// export 'widget/sheet_widget.dart';
+// export 'widget/shimmer_widget.dart';
+// export 'widget/upimage_widget.dart';
+// export 'widget/views.dart';
+// export 'widget/wrapImg_widget.dart';
+

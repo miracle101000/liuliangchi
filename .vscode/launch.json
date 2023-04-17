@@ -1,0 +1,65 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "liuliangchi",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "liuliangchi (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "liuliangchi (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "flutter_my_picker",
+            "cwd": "package/flutter_my_picker",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_my_picker (profile mode)",
+            "cwd": "package/flutter_my_picker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_my_picker (release mode)",
+            "cwd": "package/flutter_my_picker",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "paixs_utils",
+            "cwd": "package/paixs_utils",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "paixs_utils (profile mode)",
+            "cwd": "package/paixs_utils",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "paixs_utils (release mode)",
+            "cwd": "package/paixs_utils",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

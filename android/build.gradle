@@ -1,0 +1,41 @@
+buildscript {
+    ext {
+    ndkVersion = "24.0.8215888"
+  }
+    ext.kotlin_version = '1.6.10'
+    repositories {
+        google()
+        mavenCentral()
+        // repositories {
+        //     maven {
+        //         url "http://storage.googleapis.com/r8-releases/raw/master"
+        //     }
+        // }
+        // maven { url 'https://jitpack.io' }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+       // <-- THIS IS REQUIRED UNTIL R8 3.2.4-dev
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
